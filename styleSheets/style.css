@@ -1,0 +1,37 @@
+img.gallery_image {
+	width:20%;
+	margin-right:3px;
+	margin-top: 2px;
+	margin-bottom: 1px;
+	height: auto;
+	}
+
+body {
+	display: flex;
+	text-align: center;
+    margin: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+	}
+
+.landing, .rest{
+	padding-top: 50px;
+	text-align: center;
+	color: firebrick
+	}
+
+.rest{
+	height: 10px;
+	}
+
+.picSpace{
+	color: whitesmoke;
+	justify-content: center;
+	margin: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 3px;
+	}

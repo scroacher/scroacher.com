@@ -1,0 +1,28 @@
+/*style for a fullpage, scrolled over element*/
+[fullpage-scroll='top']{
+	//background-image: url('http://placehold.it/1000x1000');/*override as needed*/
+	background-image: url('../images/kids1_2016.jpg');
+	//background-color: aqua;
+	background-size: 70%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	position:fixed;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	z-index:-1;
+}
+
+/*style for a fullpage, non scrolled over element*/
+[fullpage-scroll='noscroll']{
+	//---background-image: url('http://placehold.it/1000x1000');/*override as needed*/
+	}
+
+/*style for the content scrolling over the element with pagescroll="top"*/
+[fullpage-scroll='scroll']{
+	background-color: black;
+	background-size: cover;
+	margin: 0;
+	z-index:-1;	
+}
