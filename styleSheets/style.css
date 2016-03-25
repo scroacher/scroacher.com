@@ -1,10 +1,28 @@
-img.gallery_image {
-	width:20%;
-	margin-right:3px;
-	margin-top: 2px;
-	margin-bottom: 1px;
-	height: auto;
+@media only screen and (max-width: 500px) {
+	img.gallery_image {
+		margin-right:3px;
+		margin-top: 2px;
+		margin-bottom: 1px;
+		width: 40vw;
+		max-height: 40vw;
+		min-height: 30vw;
 	}
+	#btnUpScroll {
+		width: 6%;
+	}
+}	
+@media only screen and (min-width: 501px) {
+	img.gallery_image {
+		margin-right:3px;
+		margin-top: 2px;
+		margin-bottom: 1px;
+		height: 20vw;
+		max-width: 20vw;
+	}
+	#btnUpScroll {
+		width: 3%;
+	}
+}
 
 body {
 	display: flex;
@@ -26,12 +44,49 @@ body {
 	height: 10px;
 	}
 
-.picSpace{
+#picSpace{
+	
 	color: whitesmoke;
-	justify-content: center;
-	margin: 0px;
-    margin-top: 0px;
+	display: flex
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin-top: 0px;
     margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 3px;
+    margin-bottom: 20px;
+    margin-left: 0px;
 	}
+
+#btnScroll {
+	height: 4%;
+	width: 12%;
+	position: absolute;
+	bottom: 4%;
+	right: 42%;
+	justify-content: center;
+	opacity: .4;		
+}
+
+#btnScroll:hover{
+	box-shadow: 0 0 10px #ccc;
+	opacity: .55;
+}
+
+#topContent{
+	height: 20px;
+}
+
+#btnUpScroll {
+	transform: rotate(135deg);
+	height: 4%;	
+	position: absolute;
+	right: 4%;
+}
+
+#btnUpScroll:hover{
+	box-shadow: 0 0 10px #ccc;
+	transform: rotate(180deg);
+}
+
+#btm {
+	height: 60px;
+}
