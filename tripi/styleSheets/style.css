@@ -1,0 +1,64 @@
+body{
+	width: 100%;
+	margin: 0
+}
+
+.topper {
+	background-color: firebrick;	
+	padding: 0%;
+}
+
+#nameBar {
+	
+	text-align:center;
+}
+
+#logo1 {
+	height: 10em;
+	width: 70%;
+}
+
+#menuBar {
+	height: 50px;
+	padding: 0px;
+	
+}
+
+#buttons li {
+    float: left;
+    list-style: none;
+    text-align: center;
+    width: 10%;
+	padding: 0px;
+    line-height: 48px;
+	border-style: solid;
+	border-color: darkred;
+	border-width: thin;
+	
+}
+
+#buttons li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+}
+
+#buttons li a:hover {
+    text-decoration: none;
+    color: #000000;
+    background-color: darkred;
+}
+
+.sidebar {
+	position: absolute;
+	top: 14.3em;
+	bottom: 0px;
+	right: 0px;
+	width: 30%;
+	
+	border-style: solid;
+	border-left: medium single black;
+	border-top: medium none black;
+	border-right: medium none black;
+	border-bottom: medium none black;
+}
